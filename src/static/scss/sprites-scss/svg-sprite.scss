@@ -1,0 +1,27 @@
+  $ico_gp: -4px -4px 492px 378px 500px 2371px './test.svg' 'ico_gp';
+  $ico_fb: -4px -386px 220px 471px 500px 2371px './test.svg' 'ico_fb';
+  $ico_in: -4px -861px 431px 411px 500px 2371px './test.svg' 'ico_in';
+  $ico_tw: -4px -1276px 300px 300px 500px 2371px './test.svg' 'ico_tw';
+  $ico_insta: -4px -1580px 259px 259px 500px 2371px './test.svg' 'ico_insta';
+  $legal-155: -4px -1843px 155px 132px 500px 2371px './test.svg' 'legal-155';
+  $legal: -4px -1979px 154px 130px 500px 2371px './test.svg' 'legal';
+  $by_facility: -4px -2113px 135px 12px 500px 2371px './test.svg' 'by_facility';
+  $legal-110: -4px -2129px 110px 94px 500px 2371px './test.svg' 'legal-110';
+  $ornament-81x81: -4px -2227px 81px 81px 500px 2371px './test.svg' 'ornament-81x81';
+  $ornament-55x55: -4px -2312px 55px 55px 500px 2371px './test.svg' 'ornament-55x55';
+
+
+
+@mixin svg-sprite-position($svg-sprite) {
+  $svg-sprite-offset-x: nth($svg-sprite, 1);
+  $svg-sprite-offset-y: nth($svg-sprite, 2);
+  background-position: $svg-sprite-offset-x  $svg-sprite-offset-y;
+}
+
+@mixin bg-svg($svg-sprite, $repeat: no-repeat) {
+    background-image: url('%=static=%svg-sprite/spritejd3j9k.svg');
+    @include svg-sprite-position($svg-sprite);
+    width: nth($svg-sprite, 3);
+    height: nth($svg-sprite, 4);
+    background-repeat: $repeat;
+}

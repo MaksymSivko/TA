@@ -1,0 +1,13 @@
+@import './static/scss/main';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $Font-RobotoSlabRegular;
+  font-size: 14px;
+  min-width: 320px;
+}

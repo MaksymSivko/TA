@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'AktivGroteskCorp Bold';
+  src: url('../fonts/AktivGroteskCorp-Bold.eot');
+  src: url('../fonts/AktivGroteskCorp-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AktivGroteskCorp-Bold.woff') format('woff'),
+    url('../fonts/AktivGroteskCorp-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AktivGroteskCorp Regular';
+  src: url('../fonts/AktivGroteskCorp-Regular.eot');
+  src: url('../fonts/AktivGroteskCorp-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AktivGroteskCorp-Regular.woff') format('woff'),
+    url('../fonts/AktivGroteskCorp-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CaslonGraphiqueEF';
+  src: url('../fonts/CaslonGraphiqueEF.eot');
+  src: url('../fonts/CaslonGraphiqueEF.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CaslonGraphiqueEF.woff') format('woff'),
+    url('../fonts/CaslonGraphiqueEF.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoSlab Bold';
+  src: url('../fonts/RobotoSlab-Bold.eot');
+  src: url('../fonts/RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoSlab-Bold.woff') format('woff'),
+    url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoSlab Regular';
+  src: url('../fonts/RobotoSlab-Regular.eot');
+  src: url('../fonts/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoSlab-Regular.woff') format('woff'),
+    url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+$Font-AktivGroteskCorp: 'AktivGroteskCorp Regular';
+$Font-AktivGroteskCorpBold: 'AktivGroteskCorp Bold';
+$Font-RobotoSlabRegular: 'RobotoSlab Regular';
+$Font-RobotoSlabBold: 'RobotoSlab Bold';
+$Font-CaslonGraphiqueEF: 'CaslonGraphiqueEF';

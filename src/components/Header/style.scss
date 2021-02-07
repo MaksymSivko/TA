@@ -2,12 +2,14 @@
 
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
   padding: 30px 0;
   background: #fff;
   width: 100%;
-  z-index: 99;
   transition: transform 0.5s, background 0.5s;
-  font-size: 0;
 
   &.fixed {
     transform: translateY(-100%);
@@ -86,9 +88,7 @@
       @include hover {
         color: #7bc7d6;
       }
-
     }
-
   }
 
   &_height {
@@ -96,12 +96,10 @@
 
     @include respond-to(d) {
       height: 105px;
-
     }
 
     @include respond-to(t) {
       height: 85px;
-
     }
   }
 

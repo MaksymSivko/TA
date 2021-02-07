@@ -17,7 +17,6 @@ export const App = () => {
     <>
       <Header />
 
-      <div className="header_height"></div>
       <div>
         <br />
         <br />
